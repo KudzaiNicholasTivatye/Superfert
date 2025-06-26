@@ -902,6 +902,13 @@ form .btn2{
     padding-top: 20px;
   }
 
+  .description h2 {
+    font-size: 28px;
+  }
+  .description p {
+    font-size: 15px;
+  }
+
   .imageFarmer img {
     max-width: 90vw;
      display: block;
