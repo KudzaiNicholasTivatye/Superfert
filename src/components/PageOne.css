@@ -52,7 +52,6 @@ html, body {
 nav ul {
     display: flex;
     justify-content: center;
-    position: fixed;
     align-items: center;
     text-align: center;
     gap: 40px;
@@ -61,12 +60,14 @@ nav ul {
     width: 700px;
     height: 61px;
     margin-left: 360px;
-    margin-top: 20px;
+    margin-top: 40px;
     background: #EBEBEBE5; /* semi-transparent white */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* subtle shadow */
     list-style: none;
     z-index: 2;
-    position: static; /* Not fixed */
+    position: static ; /* Not fixed */
+     
+  
    
 }
 
@@ -190,7 +191,7 @@ nav ul li {
 
 
 
-
+/*HERO SECTION*/
 
 
 .herosection {
@@ -262,7 +263,12 @@ nav ul li {
   
 }
 
+
+
 /*Second section css*/
+/*FERTILISERS*/
+
+
 
 .secondSection {
      text-align: center;
@@ -293,7 +299,10 @@ nav ul li {
     align-items: center;
 }
 
+
 /*Third section css*/
+
+
 .bigImage {
     background: 
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), 
@@ -716,7 +725,12 @@ form .btn2{
     margin-left: 0;
     margin-top: 10px;
   }
+
+
   /* SECOND SECTION */
+  /*MOBILE*/
+
+
   .secondSection h2 {
     font-size: clamp(24px, 7vw, 28px);
   }
@@ -730,7 +744,28 @@ form .btn2{
     padding-bottom: 15px;
   }
 
-  /* Third section base styles */
+.patners img {
+    max-width: 180px;
+    width: 70%;
+    height: auto;
+}
+
+/* Responsive: smaller images on mobile */
+@media (max-width: 768px) {
+    .patners img {
+        max-width: 100px;
+    }
+}
+
+
+
+
+
+
+
+  /* Third section MADE ON ZIMBABWE  MOBILE */
+
+
 .bigImage {
     background: 
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), 
@@ -774,6 +809,7 @@ form .btn2{
     font-size: 36px; /* Smaller for mobile, will increase on larger screens */
     font-weight: 800;
     margin-bottom: 20px;
+     padding-top: 120px;
 }
 
 .texts p {
@@ -840,19 +876,30 @@ form .btn2{
 }
 
 
-  /* Who WE ArE SECTION */
+  /* WHO WE ARE SECTION MOBILE */
+
+
+
   .us {
     flex-direction: column;
     padding: 15px 10px;
     gap: 10px;
   }
+
   .description h2,
   .description p,
   .description button {
     margin-left: 20px;
+    padding-top: 20px;
   }
+
   .imageFarmer img {
     max-width: 90vw;
+     display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  max-width: 400px;
+  height: auto;
   }
 
 
@@ -882,6 +929,8 @@ form .btn2{
     margin-left: 28px;
     margin-top: 15px;
   }
+
+
   /* SIXTH SECTION */
   .sixth {
     grid-template-columns: 1fr;
@@ -915,17 +964,43 @@ form .btn2{
     width: 95vw;
     min-width: 0;
   }
+
+
+
+
   /* FOOTER */
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
+
+    .footer {
+    display: grid!important;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
     padding: 20px 10px;
-    gap: 20px;
   }
-  .lastImg {
+  .Links {
+    width: 100%;
+  }
+  .Links h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+    margin: 20px;
+  }
+  .Links ul {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+  }
+
+
+
+ 
+.lastImg {
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+     margin: 0 auto;
+    text-align: center;
   }
 }
 

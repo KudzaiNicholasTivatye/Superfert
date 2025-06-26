@@ -233,6 +233,7 @@ const PageOne = () => {
 
 
       {/*EIGHTH COMPONENT*/}
+      
       <div className="footer">
         <div className="Links">
           <h3>Quick Links</h3> 
