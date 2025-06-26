@@ -710,21 +710,30 @@ form .btn2{
     font-size: clamp(28px, 8vw, 38px); /* Adjusts for smaller screens */
     padding-left: 0;
     padding-top: 90px;
+    margin-top: 200px;
   }
   .herosection p {
     font-size: 15px;
     padding-left: 0;
   }
   .buttons {
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 0;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
+     justify-content: center;
+     
   }
   .btn3 button {
     margin-left: 0;
     margin-top: 10px;
   }
+
+  @media (max-width: 900px) {
+  .btn3 {
+    display: none !important;
+  }
+}
 
 
   /* SECOND SECTION */
