@@ -713,10 +713,12 @@ form .btn2{
     padding-left: 0;
     padding-top: 90px;
     margin-top: 200px;
+    text-align: center;
   }
   .herosection p {
     font-size: 15px;
     padding-left: 0;
+    text-align: center;
   }
   .buttons {
     flex-direction: row;
@@ -944,7 +946,7 @@ form .btn2{
   .bags img {
     width: 90vw;
     max-width: 300px;
-    margin-left: 130px;
+    margin-left: 108px;
   }
   .bags button {
     margin-left: 28px;
@@ -959,7 +961,7 @@ form .btn2{
     gap: 20px;
   }
   .frame {
-    width: 90vw;
+    width: 100vw;
     margin-left: 0;
     margin-top: 20px;
     height: auto;
