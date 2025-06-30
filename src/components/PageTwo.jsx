@@ -2,6 +2,8 @@ import React from 'react'
 import './PageTwo.css'
 import { NavLink } from 'react-router-dom';
 import  { useState } from 'react';
+import Slogo from "../imgs/Slogo.png";
+import bag from "../imgs/bag.png";
 
 
 
@@ -18,7 +20,7 @@ const PageTwo = () => {
             <header> 
               <div id="Home">
                   <div className="logo">
-                    <img src="./src/imgs/Slogo.png" alt="logo" width={186} />
+                      <img src={Slogo} alt="" width={200} />
                 </div>
                     <button
                                               className={`hamburger-icon${menuOpen ? " open" : ""}`}
@@ -108,7 +110,7 @@ const PageTwo = () => {
                <div className="image1">
                    <div className="frames">
                         <div className="images-container">
-                        <img src="./src/imgs/pic.jpg" alt="bag" width={80} />
+                        <img src={bag} alt="" width={200} />
                         </div>
                         <div className="text-container">
                             <h4>SuperFert is exhibiting at the  <br /> ADMA Agrcultural Show.</h4>
@@ -121,7 +123,7 @@ const PageTwo = () => {
                 <div className="image1">
                    <div className="frames">
                         <div className="images-container">
-                        <img src="./src/imgs/pic.jpg" alt="bag" width={80} />
+                          <img src={bag} alt="" width={200} />
                         </div>
                         <div className="text-container">
                             <h4>SuperFert is exhibiting at the  <br /> ADMA Agrcultural Show.</h4>
@@ -134,7 +136,7 @@ const PageTwo = () => {
                 <div className="image1">
                    <div className="frames">
                         <div className="images-container">
-                        <img src="./src/imgs/pic.jpg" alt="bag" width={80} />
+                         <img src={bag} alt="" width={200} />
                         </div>
                         <div className="text-container">
                             <h4>SuperFert is exhibiting at the  <br /> ADMA Agrcultural Show.</h4>
@@ -147,7 +149,7 @@ const PageTwo = () => {
                 <div className="image1">
                    <div className="frames">
                         <div className="images-container">
-                        <img src="./src/imgs/pic.jpg" alt="bag" width={80} />
+                          <img src={bag} alt="" width={200} />
                         </div>
                         <div className="text-container">
                             <h4>SuperFert is exhibiting at the  <br /> ADMA Agrcultural Show.</h4>
@@ -160,7 +162,7 @@ const PageTwo = () => {
                 <div className="image1">
                    <div className="frames">
                         <div className="images-container">
-                        <img src="./src/imgs/pic.jpg" alt="bag" width={80} />
+                         <img src={bag} alt="" width={200} />
                         </div>
                         <div className="text-container">
                             <h4>SuperFert is exhibiting at the  <br /> ADMA Agrcultural Show.</h4>
@@ -173,7 +175,7 @@ const PageTwo = () => {
                 <div className="image1">
                    <div className="frames">
                         <div className="images-container">
-                        <img src="./src/imgs/pic.jpg" alt="bag" width={80} />
+                          <img src={bag} alt="" width={200} />
                         </div>
                         <div className="text-container">
                             <h4>SuperFert is exhibiting at the  <br /> ADMA Agrcultural Show.</h4>
