@@ -2,7 +2,9 @@ import React from 'react'
 import './PageThree.css'
 import { NavLink } from 'react-router-dom';
 import  { useState } from 'react';
-
+import Slogo from "../imgs/Slogo.png";
+import FarmerImage from "../imgs/Farmer.jpg";
+import fsg2 from '../imgs/fsg2.png';
 
 const PageThree = () => {
    const [menuOpen, setMenuOpen] = useState(false); 
@@ -15,7 +17,7 @@ const PageThree = () => {
            <header> 
               <div id="Home">
                   <div className="logo">
-                    <img src="./src/imgs/Slogo.png" alt="logo" width={186} />
+                 <img src={Slogo} alt="" width={200} />
                 </div>
                   <button
                            className={`hamburger-icon${menuOpen ? " open" : ""}`}
@@ -107,7 +109,7 @@ const PageThree = () => {
               </p>
            </div>
            <div className="imag">
-                <img src="./src/imgs/Farmer.jpg" alt="Farmers" />
+                <img src={FarmerImage} alt="Farmers" />
           </div>
        </div>
 
@@ -177,7 +179,7 @@ const PageThree = () => {
       </div>
 
       <div className="lastImg">
-         <img src="./src/imgs/fSg.png" alt="" width={90} />
+          <img src={fsg2} alt="" width={100} />
       </div>
 
     </>
