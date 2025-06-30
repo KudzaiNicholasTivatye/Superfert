@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './PageOne.css'
 import { NavLink } from 'react-router-dom';
-import seedco2 from './src/imgs/seedco2.png';
-import sTr from './src/imgs/sTr.png';
-import national from './src/imgs/national.png';
-import fsg2 from './src/imgs/fsg2.png';
+import seedco from '../imgs/seedco2.png';
+import sTr from '../imgs/sTr.png';
+import national from '../imgs/national.png';
+import fsg2 from '../imgs/fsg2.png';
 
 const PageOne = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -100,11 +100,11 @@ const PageOne = () => {
         <h2>Fertilisers. Seed. Grain.</h2>
         <p>SuperFet Fertilizeris powered by the FSG Company and is a proud patner of </p>
             <div className="patners">
-           <img src={seedco2} alt="" />
+           <img src={seedco} alt="" />
       <img src={sTr} alt="" width={100} />
       <img src={national} alt="" width={100} />
       <img src={fsg2} alt="" width={100} />
-      <img src={seedco2} alt="" width={100} />
+      <img src={seedco} alt="" width={100} />
             </div>
       </div>
 
