@@ -802,7 +802,7 @@ form .btn2{
     width: 100%; /* Take full width for responsive layout */
     max-width: 800px; /* Limit max width for large screens */
     margin: 0 auto; /* Center the content */
-    padding: 60px 20px; /* Adjust for all devices */
+    padding: 80px 40px; /* Adjust for all devices */
     box-sizing: border-box; /* Include padding in width */
 }
 
@@ -957,11 +957,11 @@ form .btn2{
   /* SIXTH SECTION */
   .sixth {
     grid-template-columns: 1fr;
-    padding: 20px ;
+    padding:20px ;
     gap: 20px;
   }
   .frame {
-    width: 100vw;
+    width: 90vw;
     margin-left: 0;
     margin-top: 20px;
     height: auto;
@@ -970,24 +970,37 @@ form .btn2{
 
   
   /* SEVEN SECTION */
-  .seven {
-    flex-direction: column;
-    gap: 20px;
-    height: auto;
-    padding: 20px 0;
-  }
-  .withForm {
-    padding: 20px 10px;
-    margin-left: 0;
-  }
-  .withForm h2 {
-    font-size: clamp(24px, 7vw, 32px);
-  }
-  .foRm {
-    width: 95vw;
-    min-width: 0;
-  }
+.seven {
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  padding: 20px 0;
+}
 
+.withForm {
+  padding: 20px 10px;
+  margin-left: 0;
+}
+
+.withForm h2 {
+  font-size: clamp(24px, 7vw, 32px);
+}
+
+.foRm {
+  width: 85vw; /* Reduced from 95vw */
+  min-width: 0;
+  /* Glass Morphism Effect */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  /* Rounded Corners */
+  border-radius: 16px; /* Adjust curvature as needed */
+  /* Border and Shadow */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  /* Internal Spacing */
+  padding: 25px;
+}
 
 
 
@@ -1004,7 +1017,7 @@ form .btn2{
     width: 100%;
   }
   .Links h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 8px;
     text-align: left;
     margin: 20px;
