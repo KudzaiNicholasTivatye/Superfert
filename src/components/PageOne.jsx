@@ -5,6 +5,13 @@ import seedco from '../imgs/seedco2.png';
 import sTr from '../imgs/sTr.png';
 import national from '../imgs/national.png';
 import fsg2 from '../imgs/fsg2.png';
+import FarmerImage from "../imgs/Farmer.jpg";
+import Slogo from "../imgs/Slogo.png";
+import bag from "../imgs/bag.png";
+import copy from "../imgs/copy.png";
+
+
+
 
 const PageOne = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +23,8 @@ const PageOne = () => {
         <header>
           <div id="Home">
             <div className="logo">
-              <img src="./src/imgs/Slogo.png" alt="logo" width={186} />
+            <img src={Slogo} alt="" width={200} />
+
             </div>
             <button
               className={`hamburger-icon${menuOpen ? " open" : ""}`}
@@ -128,7 +136,8 @@ const PageOne = () => {
 
         </div>
         <div className="imageFarmer">
-          <img src="./src/imgs/Farmer.jpg" alt="Farmers" />
+         <img src={FarmerImage} alt="Farmers" />
+
         </div>
       </div>
 
@@ -136,7 +145,8 @@ const PageOne = () => {
         <div className="green">
           <div className="div1">
             <h1>SuperFert Products.</h1>
-            <img src="./src/imgs/Slogo.png" alt="" width={200}/>
+          <img src={Slogo} alt="" width={200} />
+
           </div>
            <div className="bags">
             <p>
@@ -144,7 +154,8 @@ const PageOne = () => {
              exercitationem dolores corporis eaque <br /> asperiores quibusdam. Consectetur eveniet dolores <br />earum aspernatur magni accusantium, sunt <br />itaque similique blanditiis, unde.
             </p>
              <button> More Info</button>
-             <img src="./src/imgs/copy.png" alt="" width={800}/>
+            <img src={copy} alt="" width={800} />
+
           </div>
         </div>
 
@@ -154,7 +165,8 @@ const PageOne = () => {
     <div className="sixth">
         <div className="frame">
             <div className="image-container">
-              <img src="./src/imgs/bag.png" alt="bag" width={80} />
+             <img src={bag} alt="bag" width={80} />
+
             </div>
                 <div className="text-container">
                   <h3>Tobacco Fertilizer</h3>
@@ -165,7 +177,7 @@ const PageOne = () => {
 
         <div className="frame">
             <div className="image-container">
-              <img src="./src/imgs/bag.png" alt="bag" width={80} />
+               <img src={bag} alt="bag" width={80} />
             </div>
                 <div className="text-container">
                   <h3>Tobacco Fertilizer</h3>
@@ -176,7 +188,7 @@ const PageOne = () => {
 
         <div className="frame">
             <div className="image-container">
-              <img src="./src/imgs/bag.png" alt="bag" width={80} />
+              <img src={bag} alt="bag" width={80} />
             </div>
                 <div className="text-container">
                   <h3>Tobacco Fertilizer</h3>
@@ -187,7 +199,7 @@ const PageOne = () => {
 
         <div className="frame">
             <div className="image-container">
-              <img src="./src/imgs/bag.png" alt="bag" width={80} />
+               <img src={bag} alt="bag" width={80} />
             </div>
                 <div className="text-container">
                   <h3>Tobacco Fertilizer</h3>
@@ -198,7 +210,7 @@ const PageOne = () => {
 
         <div className="frame">
             <div className="image-container">
-              <img src="./src/imgs/bag.png" alt="bag" width={80} />
+             <img src={bag} alt="bag" width={80} />
             </div>
                 <div className="text-container">
                   <h3>Tobacco Fertilizer</h3>
@@ -209,7 +221,7 @@ const PageOne = () => {
 
         <div className="frame">
             <div className="image-container">
-              <img src="./src/imgs/bag.png" alt="bag" width={80} />
+              <img src={bag} alt="bag" width={80} />
             </div>
                 <div className="text-container">
                   <h3>Tobacco Fertilizer</h3>
