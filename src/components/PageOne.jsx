@@ -314,7 +314,7 @@ const PageOne = () => {
       </div>
 
       <div className="lastImg">
-         <img src="./src/imgs/fSg.png" alt="" width={90} />
+      <img src={fsg2} alt="" width={100} />
       </div>
 
     </>
