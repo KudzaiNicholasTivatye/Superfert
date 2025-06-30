@@ -802,7 +802,7 @@ form .btn2{
     width: 100%; /* Take full width for responsive layout */
     max-width: 800px; /* Limit max width for large screens */
     margin: 0 auto; /* Center the content */
-    padding: 80px 40px; /* Adjust for all devices */
+   
     box-sizing: border-box; /* Include padding in width */
 }
 
