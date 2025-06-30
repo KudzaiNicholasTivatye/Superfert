@@ -908,6 +908,9 @@ form .btn2{
   .description p {
     font-size: 15px;
   }
+  .description br{
+    display : none;
+  }
 
   .imageFarmer img {
     max-width: 90vw;
