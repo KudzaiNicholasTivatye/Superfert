@@ -509,6 +509,7 @@ nav ul li {
   grid-template-columns: repeat(3, 1fr);
   grid-area: 20px;
   padding-left: 10px;
+  padding-bottom: 30px;
 
 }
 
@@ -525,7 +526,7 @@ nav ul li {
 
 .image-container{
   background-image: url(/truck.jpg);
-  height: 50%;
+  height: 40%;
 
   object-fit: contain;
   background-size: cover;
@@ -534,7 +535,7 @@ nav ul li {
 .image-container img {
   width: 100%;
   object-fit: contain;
-  padding-top: 130px;
+  padding-top: 90px;
   z-index: 2;
   transform: translateX(30%);
 }
@@ -549,7 +550,7 @@ nav ul li {
  color: white;
  text-align: left;
  align-items: left;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .text-container p{
